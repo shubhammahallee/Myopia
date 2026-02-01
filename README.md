@@ -1,60 +1,66 @@
 # 🔬 AI-Based Myopia Classification System
 
-An end-to-end deep learning project that classifies eye images into **Normal**, **Myopia**, and **High Myopia** categories using computer vision and neural networks. The system includes model training, evaluation, comparison, and a Streamlit-based web app for real-time prediction by doctors and patients.
+AI-based eye image classification system that predicts **Normal**, **Myopia**, and **High Myopia** using deep learning. The project includes model training, evaluation, and a Streamlit-based web application where doctors and patients can upload eye images and receive predictions.
 
 ---
 
 ## 🚀 Project Overview
 
-This project focuses on medical image classification using deep learning. Multiple models are trained and tested on eye image data to predict the severity level of myopia. The best-performing model is deployed through an interactive web interface where users can upload an eye image and receive instant predictions.
+This project focuses on medical image classification using deep learning techniques. Multiple models are trained and tested on eye image data to predict the severity of myopia. The best-performing model is deployed through an interactive Streamlit web interface for real-time prediction.
 
-The workflow simulates a real-world clinical support tool for preliminary vision assessment.
+The workflow simulates a real-world clinical decision support system for preliminary vision assessment.
 
 ---
 
 ## ✨ Key Features
 
 - Eye image classification (Normal / Myopia / High Myopia)
-- Deep learning model training and testing pipeline
-- Multiple model experiments and comparison
+- Deep learning–based prediction system
 - Image preprocessing and normalization
-- Performance evaluation and visualization
+- Model evaluation and comparison
 - Streamlit web app for live predictions
-- Upload interface for doctor/admin and patient users
-- Modular and extendable code structure
+- Doctor/Admin and Patient interaction workflow
+- Patient history storage using SQLite database
+- Modular and extendable project structure
 
 ---
 
 ## 🧠 Tech Stack
 
-- PyTorch — Deep Learning
+- TensorFlow / Keras — Deep Learning
 - NumPy — Numerical computing
-- Pandas — Data handling
-- Matplotlib — Visualization
-- Streamlit — Web app deployment
-- OpenCV / PIL — Image processing
+- Streamlit — Web application
+- Pillow (PIL) — Image processing
+- SQLite — Database
+- Python — Core programming language
 
 ---
 
 ## ⚙️ System Workflow
 
-1. Dataset collection and labeling  
-2. Image preprocessing and augmentation  
-3. Model training using different architectures  
-4. Model evaluation and accuracy comparison  
-5. Best model selection  
-6. Deployment using Streamlit  
-7. Real-time image upload and prediction  
+1. Eye image upload by doctor or patient  
+2. Image preprocessing and resizing  
+3. Model inference using trained CNN  
+4. Myopia level prediction  
+5. Result storage in database  
+6. Patient history visualization  
 
 ---
 
 ## 📊 Model Evaluation
 
-- Accuracy metrics
-- Training vs validation performance
-- Confusion matrix visualization
-- Model comparison across experiments
+- Accuracy-based performance evaluation
+- Training and validation comparison
+- Prediction confidence thresholding
 
 ---
 
+## 📦 Pre-trained Model
+
+Due to GitHub file size limitations, the trained model file is **not included** in this repository.
+
+📥 **Download the pre-trained model from Google Drive:**  
+https://drive.google.com/file/d/1MGd0qLSdWBY5fMvX9hc3tbfRlCgGtUBG/view?usp=drive_link
+
+After downloading, place the model file in the project root directory:
 
