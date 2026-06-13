@@ -22,7 +22,7 @@ The workflow simulates a real-world clinical decision support system for prelimi
 - Doctor/Admin and Patient interaction workflow
 - Patient history storage using SQLite database
 - Modular and extendable project structure
-
+ 
 ---
 
 ## 🧠 Tech Stack
