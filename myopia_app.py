@@ -126,7 +126,7 @@ def validate_and_prepare_image(uploaded_file):
 # ============================================================================
 
 @st.cache_resource
-def init_db():
+def init_db(): 
     """
     Initialize database with schema migration support.
     
