@@ -70,7 +70,7 @@ def hash_password(password):
 def require_login():
     """Check if user is logged in."""
     if not st.session_state.logged_in:
-        st.error("❌ Please login first!")
+        st.error("❌ Please login first!") 
         st.stop()
 
 def navigate_to(page_name):
