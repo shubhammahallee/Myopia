@@ -449,7 +449,7 @@ def new_patient_page():
             image_preview = validate_and_prepare_image(uploaded_image)
             if image_preview:
                 st.image(image_preview, caption="Image Preview")
-        
+         
         col_submit, col_back = st.columns(2)
         
         with col_submit:
