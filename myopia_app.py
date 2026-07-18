@@ -52,7 +52,7 @@ def show_db_status():
 # ============================================================================
 # SESSION STATE INITIALIZATION
 # ============================================================================
-if "page" not in st.session_state:
+if "page" not in st.session_state: 
     st.session_state.page = "home"
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
