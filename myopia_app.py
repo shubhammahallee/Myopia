@@ -246,7 +246,7 @@ model = load_model()
 # ============================================================================
 
 def predict_myopia(image, model):
-    """Make myopia prediction with multi-class support (from G.py)."""
+    """Make myopia prediction with multi-class support (from G.py).""" 
     try:
         img_array = np.array(image).astype("float32") / 255.0
         img_array = np.expand_dims(img_array, axis=0)
