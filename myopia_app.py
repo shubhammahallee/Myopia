@@ -32,7 +32,7 @@ MAX_IMAGE_SIZE_MB = 10
 MIN_IMAGE_DIMENSION = 100
 
 # Class labels (3-class classification)
-CLASS_LABELS = ["Normal", "High Myopia", "Pathological Myopia"]
+CLASS_LABELS = ["Normal", "High Myopia", "Pathological Myopia"] 
 
 # ============================================================================
 # PAGE CONFIGURATION
