@@ -3,7 +3,7 @@ ULTIMATE MYOPIA DETECTION APPLICATION
 Hybrid version combining the best features from all previous versions
 
 Features:
-- G.py: Data management, schema migration, image storage, multi-class predictions
+- G.py: Data management, schema migration, image storage, multi-class predictions 
 - improved_app.py: Password hashing, session management, input validation
 - Main_Code.py: Model caching, image preprocessing
 
