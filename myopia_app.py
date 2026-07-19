@@ -179,7 +179,7 @@ def init_db():
                 prediction_time TEXT,
                 prediction_image BLOB,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                FOREIGN KEY(patient_id) REFERENCES patient_info_1(id)
+                FOREIGN KEY(patient_id) REFERENCES patient_info_1(id) 
             )""")
             
             # Schema migration function (from G.py)
