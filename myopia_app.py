@@ -91,7 +91,7 @@ def validate_fullname(name):
     """Validate full name."""
     return re.match(r'^[A-Za-z ]+$', name.strip()) is not None
 
-def validate_password(password):
+def validate_password(password):   
     """Validate password strength."""
     special_sym = {'$', '@', '#', '%'}
     return (8 <= len(password) <= 20 and
