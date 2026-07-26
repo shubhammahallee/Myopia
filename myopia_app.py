@@ -118,7 +118,7 @@ def validate_and_prepare_image(uploaded_file):
         
         return image.resize(IMAGE_SIZE)
     except Exception as e:
-        st.error(f"❌ Invalid image: {str(e)}")
+        st.error(f"❌ Invalid image: {str(e)}") 
         return None
 
 # ============================================================================
