@@ -42,7 +42,7 @@ st.set_page_config(page_title="Myopia Detection", layout="wide")
 # ============================================================================
 # DATABASE AUTO-CREATION NOTICE
 # ============================================================================
-def show_db_status():
+def show_db_status(): 
     """Show database status on first run."""
     if not os.path.exists(DB_NAME):
         st.warning(f"⚠️ Database '{DB_NAME}' will be created automatically on first initialization...")
