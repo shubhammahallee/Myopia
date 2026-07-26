@@ -652,7 +652,7 @@ def patient_history_page():
                         query_columns.append("prediction_date")
                     if "prediction_time" in columns:
                         query_columns.append("prediction_time")
-                    if "prediction_image" in columns:
+                    if "prediction_image" in columns: 
                         query_columns.append("prediction_image")
                     
                     query = f"SELECT {', '.join(query_columns)} FROM patient_predictions WHERE patient_id = ? ORDER BY prediction_id DESC"
