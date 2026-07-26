@@ -57,7 +57,7 @@ if "page" not in st.session_state:
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 if "current_user" not in st.session_state:
-    st.session_state.current_user = None 
+    st.session_state.current_user = None  
 
 # ============================================================================
 # UTILITY FUNCTIONS
