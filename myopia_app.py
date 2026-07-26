@@ -37,7 +37,7 @@ CLASS_LABELS = ["Normal", "High Myopia", "Pathological Myopia"]
 # ============================================================================
 # PAGE CONFIGURATION
 # ============================================================================
-st.set_page_config(page_title="Myopia Detection", layout="wide")
+st.set_page_config(page_title="Myopia Detection", layout="wide") 
 
 # ============================================================================
 # DATABASE AUTO-CREATION NOTICE
