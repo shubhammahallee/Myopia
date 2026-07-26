@@ -46,7 +46,7 @@ def show_db_status():
     """Show database status on first run."""
     if not os.path.exists(DB_NAME):
         st.warning(f"⚠️ Database '{DB_NAME}' will be created automatically on first initialization...")
-        st.info(f"📍 Database location: {os.path.abspath(DB_NAME)}")
+        st.info(f"📍 Database location: {os.path.abspath(DB_NAME)}") 
     return os.path.exists(DB_NAME)
 
 # ============================================================================
