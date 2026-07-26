@@ -65,7 +65,7 @@ if "current_user" not in st.session_state:
 
 def hash_password(password):
     """Hash password using SHA256."""
-    return hashlib.sha256(password.encode()).hexdigest()
+    return hashlib.sha256(password.encode()).hexdigest() 
 
 def require_login():
     """Check if user is logged in."""
