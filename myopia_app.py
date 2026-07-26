@@ -27,7 +27,7 @@ import time  # ← Added for sleep function
 # ============================================================================
 DB_NAME = "evaluation-8.db"
 MODEL_PATH = "myopia_model_densenet_F.h5"
-IMAGE_SIZE = (224, 224) 
+IMAGE_SIZE = (224, 224)  
 MAX_IMAGE_SIZE_MB = 10
 MIN_IMAGE_DIMENSION = 100
 
