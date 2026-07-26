@@ -157,7 +157,7 @@ def init_db():
             
             # Create patient_info_1 table
             cursor.execute("""CREATE TABLE IF NOT EXISTS patient_info_1 (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                id INTEGER PRIMARY KEY AUTOINCREMENT, 
                 name TEXT NOT NULL,
                 age INTEGER NOT NULL,
                 gender TEXT NOT NULL,
