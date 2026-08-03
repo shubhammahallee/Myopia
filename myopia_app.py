@@ -60,7 +60,7 @@ if "current_user" not in st.session_state:
     st.session_state.current_user = None  
 
 # ============================================================================
-# UTILITY FUNCTIONS
+# UTILITY FUNCTIONS 
 # ============================================================================
 
 def hash_password(password):
