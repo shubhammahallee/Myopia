@@ -122,7 +122,7 @@ def validate_and_prepare_image(uploaded_file):
         return None
 
 # ============================================================================
-# DATABASE INITIALIZATION (From G.py with enhancements)
+# DATABASE INITIALIZATION (From G.py with enhancements) 
 # ============================================================================
 
 @st.cache_resource
