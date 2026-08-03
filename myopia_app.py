@@ -242,7 +242,7 @@ def load_model():
 model = load_model()
 
 # ============================================================================
-# PREDICTION FUNCTION
+# PREDICTION FUNCTION 
 # ============================================================================
 
 def predict_myopia(image, model):
