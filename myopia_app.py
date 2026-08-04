@@ -23,7 +23,7 @@ import os
 import time  # ← Added for sleep function  
 
 # ============================================================================
-# CONFIGURATION
+# CONFIGURATION 
 # ============================================================================
 DB_NAME = "evaluation-8.db"
 MODEL_PATH = "myopia_model_densenet_F.h5"
