@@ -7,7 +7,7 @@ Features:
 - improved_app.py: Password hashing, session management, input validation
 - Main_Code.py: Model caching, image preprocessing
 
-This is production-ready!
+This is production-ready! 
 """  
 
 import streamlit as st
