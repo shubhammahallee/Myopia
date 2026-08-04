@@ -698,7 +698,7 @@ def patient_history_page():
         navigate_to("main")
 
 # ============================================================================
-# MAIN APP ROUTING
+# MAIN APP ROUTING 
 # ============================================================================
 
 if st.session_state.page == "home":
