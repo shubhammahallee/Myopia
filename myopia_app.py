@@ -1,5 +1,5 @@
 """
-ULTIMATE MYOPIA DETECTION APPLICATION
+ULTIMATE MYOPIA DETECTION APPLICATION 
 Hybrid version combining the best features from all previous versions
 
 Features:
