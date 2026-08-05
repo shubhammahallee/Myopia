@@ -116,7 +116,7 @@ def validate_and_prepare_image(uploaded_file):
             st.error(f"❌ Image too small (min {MIN_IMAGE_DIMENSION}x{MIN_IMAGE_DIMENSION})")
             return None
         
-        return image.resize(IMAGE_SIZE)
+        return image.resize(IMAGE_SIZE) 
     except Exception as e:
         st.error(f"❌ Invalid image: {str(e)}") 
         return None
