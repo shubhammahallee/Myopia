@@ -108,7 +108,7 @@ def validate_and_prepare_image(uploaded_file):
             st.error(f"❌ Image too large (max {MAX_IMAGE_SIZE_MB} MB)")
             return None
         
-        image = Image.open(uploaded_file) 
+        image = Image.open(uploaded_file)  
         image = image.convert("RGB")
         
         width, height = image.size
