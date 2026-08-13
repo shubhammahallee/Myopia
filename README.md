@@ -14,7 +14,7 @@ The workflow simulates a real-world clinical decision support system for prelimi
 
 ## ✨ Key Features
 
-- Eye image classification (Normal / Myopia  / High Myopia)
+- Eye image classification (Normal / pathological myopia  / High Myopia)
 - Deep learning–based prediction system
 - Image preprocessing and normalization
 - Model evaluation and comparison
