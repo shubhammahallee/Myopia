@@ -1,6 +1,6 @@
 # 🔬 AI-Based Myopia Classification System 
 
-AI-based eye image classification system that predicts **Normal**, **Myopia**, and **High Myopia** using deep learning. The project includes model training, evaluation, and a Streamlit-based web application where doctors and patients can upload eye images and receive predictions..
+AI-based eye image classification system that predicts **Normal**, **Myopia Pathlogical**, and **High Myopia** using deep learning. The project includes model training, evaluation, and a Streamlit-based web application where doctors and patients can upload eye images and receive predictions..
 
 ---
 
@@ -14,7 +14,7 @@ The workflow simulates a real-world clinical decision support system for prelimi
 
 ## ✨ Key Features
 
-- Eye image classification (Normal / Myopia / High Myopia)
+- Eye image classification (Normal / Myopia  / High Myopia)
 - Deep learning–based prediction system
 - Image preprocessing and normalization
 - Model evaluation and comparison
