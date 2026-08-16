@@ -19,7 +19,7 @@ The workflow simulates a real-world clinical decision support system for prelimi
 - Image preprocessing and normalization
 - Model evaluation and comparison
 - Streamlit web app for live predictions
-- Doctor/Admin and Patient interaction workflow
+- Doctor/Admin and Patient interaction workflow 
 - Patient history storage using SQLite database
 - Modular and extendable project structure
  
