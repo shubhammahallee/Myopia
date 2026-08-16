@@ -16,7 +16,7 @@ The workflow simulates a real-world clinical decision support system for prelimi
 
 - Eye image classification (Normal / pathological myopia  / High Myopia)
 - Deep learning–based prediction system
-- Image preprocessing and normalization
+- Image preprocessing and normalization 
 - Model evaluation and comparison
 - Streamlit web app for live predictions
 - Doctor/Admin and Patient interaction workflow 
