@@ -12,7 +12,7 @@ This is production-ready!
 
 import streamlit as st  
 import sqlite3 
-from PIL import Image
+from PIL import Image 
 import io 
 import re
 import numpy as np
