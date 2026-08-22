@@ -2,7 +2,7 @@
 
 An AI-based medical image classification system designed to classify eye images into **Normal**, **Pathological Myopia**, and **High Myopia** using deep learning.
 
-The project involves extensive experimentation with multiple deep learning architectures, activation functions, hyperparameter configurations, and model evaluation techniques. The best-performing model is integrated into a **Streamlit-based web application** for real-time image classification.
+The project involves extensive experimentation with multiple deep learning architectures, activation functions, hyperparameter configurations, and model evaluation techniques. The best-performing model is integrated into a **Streamlit-based web application** for real-time image classification. 
 
 > **Note:** This project is intended as a preliminary classification/research prototype and is not a replacement for professional medical diagnosis.
 
